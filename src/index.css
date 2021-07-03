@@ -1,14 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+body {
+   background-color: aliceblue;
+}
 .main {
     display: flex;
     flex-direction: column;
     text-align: center;
+    font-family: 'Otomanopee One', sans-serif;
 }
+
  .TaskTable{
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    flex: 1 0 auto;
     align-items: center;
  }
 
  th, td {
+    font-family: Arial, Helvetica, sans-serif;
     border: 1px solid;
  }
