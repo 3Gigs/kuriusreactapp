@@ -1,3 +1,14 @@
 .main {
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
+ .TaskTable{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ th, td {
+    border: 1px solid;
+ }
